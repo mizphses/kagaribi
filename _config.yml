@@ -1,0 +1,20 @@
+title: My Jekyll
+description: >
+  かがりび（blog）のテンプレートです。
+baseurl: ""
+url: "http://kagaribi.gentoo.app"
+
+author:
+  name: Fuminori Ogawa
+  email: fuminori@graphonica.info
+  github: mizphses
+
+paginate: 3
+paginate_path: page:num
+
+sass:
+  style: expanded
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
