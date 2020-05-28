@@ -3,31 +3,36 @@ layout: default
 ---
 
 <article class="contents page">
-  <div class="container-fluid">
-
-    <div class="page__header">
-      <h1 class="pagetitle">{{ page.title }}</h1>
-      <p class="page__date">{{ page.date | date: '%B %d, %Y' }}</p>
+  <div class="container">
+    <div class="tenpxsp"></div>
+    <div class="row">
+      <div class="col-1 bg-success text-white"></div>
+      <div class="col-11 basebg text-white topcolumn">
+        <p ><span class="h1">{{ page.title }}</span></p>
+        <p>Issued on {{ page.date | date: '%B %d, %Y' }}</p>
+      </div>
     </div>
-
-    <div class="page__body">
 
 
       {{ content }}
 
 
-    </div><!--page__body-->
+    <!--page__body-->
 
     <!-- 前後のページへのリンクを表示したい -->
-    <div class="row">
+    <div class="pager">
 
-      <p class="col-10">
-        <a href="">&lt; 次のページ</a>
-      </p>
+      {% if page.next %}
+        <p class="pager__item--next">
+          <a href="{{ page.next.url | relative_url }}">&lt; {{ page.next.title }}</a>
+        </p>
+      {% endif %}
 
-      <p class="col-2">
-        <a href="">前のページ &gt;</a>
-      </p>
+      {% if page.previous %}
+        <p class="pager__item--prev">
+          <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} &gt;</a>
+        </p>
+      {% endif %}
 
     </div><!--pager-->
     

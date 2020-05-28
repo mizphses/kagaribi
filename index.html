@@ -1,72 +1,6 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <title>かがりび</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script>
-    (function(d) {
-      var config = {
-        kitId: 'tet4iux',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>
-  <head>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.6/lottie.min.js"
-      type="text/javascript"
-    ></script>
-  </head>
-  <link rel="stylesheet" href="https://use.typekit.net/bkl0chp.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-</head>
-
-<body>
-
-<!-- サイト名とナビゲーション部分｡全ページ共通 -->
-<header class="header">
-  <nav class="navbar navbar-expand-lg navbar-dark basebg">
-    <a class="navbar-brand title" href="#">かがりび</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/posts">Posts</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Contact
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Mail and other ways</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Design Works</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">GitHub</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
-
+---
+layout: default
+---
 
 <!-- コンテンツ -->
 <body>
@@ -76,14 +10,14 @@
   <div class="tenpxsp"></div>
   <div class="row">
     <div class="col-11 basebg text-white topcolumn">
-      <p ><span class="h1">Fumi Ogawa</span>(Natom)</p>
+      <p ><span class="h1">Yu Uchino</span>(Natom)</p>
       <p>Graphonica Technology Service Manager</p>
       <p>Ogawa Tax Accountant Office Web Manager</p>
       <p class="h3">Works</p>
       <ul>
         <li><a class="text-white" href="https://www.coderdojo-konan.jp">CoderDojo Konan Website/Logo &nbsp; <i class="fas fa-wrench"></i> &nbsp; <i class="fas fa-paint-brush"></i></a></li>
         <li><a class="text-white" href="https://www.ogawa-jimusho.com">Ogawa Tax Accountant Office Website &nbsp; <i class="fas fa-wrench"></i> &nbsp; <i class="fas fa-paint-brush"></i>&nbsp; <i class="fab fa-wordpress"></i></a></li>
-        <li><a class="text-white" href="#">Safety card for school festival &nbsp; <i class="fas fa-paint-brush"></i></a></li>
+        <li><a class="text-white" href="/design">Safety card for school festival &nbsp; <i class="fas fa-paint-brush"></i></a></li>
       </ul>
     </div>
     <div class="col-1 bg-info">
@@ -93,7 +27,7 @@
 
 <div class="space"></div>
 <h2 class="serif">このサイト−<span class="title">かがりび</span>−について</h2>
-<p>かがりびはデザイナー・WEBエンジニアであるFumi Ogawa（なと氏/内野游）の公開ポートフォリオ兼ブログです。Jekyll+Bootstrap+UIKit+Lottieで作っています。</p>
+<p>かがりびはデザイナー・WEBエンジニアである Yu Uchino （なと氏/内野游）の公開ポートフォリオ兼ブログです。Jekyll+Bootstrap+UIKit+Lottieで作っています。</p>
 <hr>
 <h2 class="text-center serif">What can represent myself?</h2>
 <div class="space"></div>
@@ -132,23 +66,3 @@
 <a class="btn btn-success text-white" href="/posts">ブログを見る</a>
 </div>
 </div>
-<!-- フッター｡全ページ共通 -->
-<hr>
-<footer class="footer">
-  <div class="container-fluid">
-    <div class="footer__container">
-      <p class="copyright"><small>&copy; 2020 Fumi Ogawa</small></p>
-
-          <p class="social-link__item">
-            <a href="https://github.com/mizphses"><i class="fab fa-github"></i>mizphses</a>
-          </p>
-      </div>
-    </div><!--footer__container-->
-  </div><!--container-->
-</footer>
-<script src="assets/js/main.js" type="text/javascript"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
-</html>

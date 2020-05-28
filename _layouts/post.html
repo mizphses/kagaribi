@@ -1,4 +1,3 @@
-
 ---
 layout: default
 ---
@@ -6,12 +5,17 @@ layout: default
 <article class="contents page">
   <div class="container">
 
-    <div class="page__header">
-      <h1 class="page__title">{{ page.title }}</h1>
-      <p class="page__date">{{ page.date | date: '%B %d, %Y' }}</p>
-    </div>
+      <div class="container">
+        <div class="tenpxsp"></div>
+        <div class="row">
+          <div class="col-1 bg-info text-white"></div>
+          <div class="col-11 basebg text-white topcolumn">
+            <p ><span class="h1">{{ page.title }}</span></p>
+            <p>Issued on {{ page.date | date: '%B %d, %Y' }}</p>
+          </div>
+        </div>
+        
 
-    <div class="page__body">
 
 
       {{ content }}
@@ -21,16 +25,23 @@ layout: default
 
     <!-- 前後のページへのリンクを表示したい -->
     <div class="pager">
+    <div class="row">
+      <div class="col-10">
+      {% if page.next %}
+        <p class="pager__item--next">
+          <a href="{{ page.next.url | relative_url }}">&lt; {{ page.next.title }}</a>
+        </p>
+      {% endif %}
+      </div>
+      <div class="col-2">
+      {% if page.previous %}
+        <p class="pager__item--prev text-right">
+          <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} &gt;</a>
+        </p>
+      {% endif %}
+    </div>
+    </div>
 
-      <p class="pager__item--next">
-        <a href="">&lt; 次のページ</a>
-      </p>
-
-      <p class="pager__item--prev">
-        <a href="">前のページ &gt;</a>
-      </p>
-
-    </div><!--pager-->
     
   </div><!--container-->
 </article><!--page-->

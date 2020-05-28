@@ -1,4 +1,4 @@
-title: My Jekyll
+title: かがりび
 description: >
   かがりび（blog）のテンプレートです。
 baseurl: ""
@@ -19,8 +19,8 @@ typekit:
   csstag: <link rel="stylesheet" href="https://use.typekit.net/bkl0chp.css">
 
 author:
-  name: Fuminori Ogawa
-  email: fuminori@graphonica.info
+  name: Yu Uchino
+  email: info@gentoo.app
   github: mizphses
 
 paginate: 3

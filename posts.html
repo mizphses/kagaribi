@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="tenpxsp"></div>
+  <div class="row">
+    <div class="col-1 bg-info text-white"></div>
+    <div class="col-11 basebg text-white topcolumn">
+      <p ><span class="h1">投稿の一覧</span></p>
+      <p>Posts</p>
+    </div>
+  </div>
+
+    {% for post in site.posts %}
+      <article class="archive">
+        <h2 class="archive__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="archive__date"><time>{{ post.date | date: '%B %d, %Y' }}</time></p>
+        <div class="archive__excerpt">{{ post.excerpt }}</div>
+      </article>
+      <hr>
+    {% endfor %}
+  </div>
