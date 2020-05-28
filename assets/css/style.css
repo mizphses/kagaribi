@@ -1,0 +1,47 @@
+@import url('https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Encode+Sans&family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: urw-din, fot-udkakugo-large-pr6n, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.title{
+    font-family: ten-mincho, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.serif{
+    font-family: Noto Serif JP, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pagetitle{
+    font-family: urw-din, fot-udkakugo-large-pr6n, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.boldest{
+    font-family: urw-din, tbudgothic-std, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.space{
+    height:2em;
+}
+.tenpxsp{
+    height:10px;
+}
+.topcolumn{
+    padding: 10px;
+}
+.basebg{
+    background-color: #0A233C;
+}
+.faw1{
+    font-size: 2em;
+}
+.faw2{
+    height: 10em;
+}

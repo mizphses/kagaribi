@@ -1,0 +1,10 @@
+---
+layout: page
+title: About
+description: Profile
+permalink: /about/
+---
+
+はじめまして
+
+このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。
