@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 私について
+title: About
 description: Profile
 permalink: /about/
 ---
 
 はじめまして
 
-このページはJekyllでプログラムされています。
+このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。このページはJekyllでプログラムされています。

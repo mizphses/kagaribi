@@ -2,18 +2,18 @@
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Encode+Sans&family=Noto+Sans+JP&display=swap');
 
+body{
+    font-family: urw-din, fot-udkakugo-large-pr6n, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 .title{
     font-family: ten-mincho,serif;
     font-weight: 700;
     font-style: normal;
 }
-.container{
-    font-family: urw-din, fot-udkakugo-large-pr6n, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
 .pagetitle{
-    font-family: urw-din, fot-rodin-pron, sans-serif;
+    font-family: urw-din, fot-udkakugo-large-pr6n, sans-serif;
     font-weight: 600;
     font-style: normal;
 }
