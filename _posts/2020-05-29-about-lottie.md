@@ -91,8 +91,6 @@ Aeからプラグインに書き出しを許可していないので、[編集]�
 ```
 をhtmlに書いたら完成です！
 
-<hr>
-
 <div id="welcome" class="lottie-inpage"></div>
 <small>３０秒くらいで一周します</small>
 
