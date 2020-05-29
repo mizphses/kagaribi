@@ -37,23 +37,5 @@ layout: default
 
     </div><!--page__body-->
 
-    <!-- 前後のページへのリンクを表示したい -->
-
-    <div class="row">
-      <div class="col-10">
-      {% if page.next %}
-        <p class="text-left">
-          <a href="{{ page.next.url | relative_url }}">&lt; {{ page.next.title }}</a>
-        </p>
-      {% endif %}
-      </div>
-      <div class="col-2">
-      {% if page.previous %}
-        <p class="text-right">
-          <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} &gt;</a>
-        </p>
-      {% endif %}
-    </div>
-    </div>
   </div><!--container-->
 </article><!--page-->
