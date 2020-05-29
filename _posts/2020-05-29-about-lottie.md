@@ -6,7 +6,7 @@ tag:
     - web-design
     - movie
     - tech
-author: Fumi Ogawa
+author: natom
 ---
 
 この記事ではLottieについて軽く紹介した後、使い方などもご紹介します。
