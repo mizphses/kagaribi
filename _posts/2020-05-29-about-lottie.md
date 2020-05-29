@@ -94,13 +94,3 @@ Aeからプラグインに書き出しを許可していないので、[編集]�
 この記事ではLottieの使いかたをご紹介しました。どうやらLottieをつかってローディングアニメーションを作ったりもできるみたいです。決済のチェックマークなんかこれを使って実装するとかっこいいですよね。聞くところによると[約束のネバーランド](http://sp.shonenjump.com/j/sp_neverland/#/)もLottieを盛大に使って実装されてるようで。見た感じ「確かに」って思いました。
 
 皆さんもLottieをつかってかっこいいアニメーションを導入しましょう！
-
-<script>
-    let lottieObj = lottie.loadAnimation({
-        container: document.getElementById('welcome'), 
-        renderer: 'svg',
-        loop: false,
-        autoplay: true,
-        path: 'https://raw.githubusercontent.com/mizphses/kagaribi/master/assets/img/lottie/welcome.json'
-    });
-</script>
