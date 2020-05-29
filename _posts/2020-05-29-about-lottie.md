@@ -87,7 +87,7 @@ Aeからプラグインに書き出しを許可していないので、[編集]�
 を仕込んで
 
 ```
-<div class="lottie"></div>
+<div id="lottie"></div>
 ```
 をhtmlに書いたら完成です！
 
