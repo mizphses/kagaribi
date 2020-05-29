@@ -1,7 +1,12 @@
 ---
 layout: post
 title:  "Lottieで簡単WEBアニメーション"
-tag: [blog, web-design, movie, tech]
+tag:
+    - blog
+    - web-design
+    - movie
+    - tech
+author: Fumi Ogawa
 ---
 
 この記事ではLottieについて軽く紹介した後、使い方などもご紹介します。
@@ -88,7 +93,8 @@ Aeからプラグインに書き出しを許可していないので、[編集]�
 
 <hr>
 
-<div class="welcome"></div>
+<div id="welcome" class="lottie-inpage"></div>
+<small>３０秒くらいで一周します</small>
 
 ## まとめ
 この記事ではLottieの使いかたをご紹介しました。どうやらLottieをつかってローディングアニメーションを作ったりもできるみたいです。決済のチェックマークなんかこれを使って実装するとかっこいいですよね。聞くところによると[約束のネバーランド](http://sp.shonenjump.com/j/sp_neverland/#/)もLottieを盛大に使って実装されてるようで。見た感じ「確かに」って思いました。

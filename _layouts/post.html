@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-
+{% if post %}
+  {% assign date = post.date %}
+  {% assign tags = post.tags %}
+{% else %}
+  {% assign date = page.date %}
+  {% assign tags = page.tags %}
+{% endif %}
 <article class="contents page">
   <div class="container-fluid">
     <div class="tenpxsp"></div>
@@ -10,6 +16,15 @@ layout: default
       <div class="col-11 basebg text-white topcolumn">
         <p ><span class="h1">{{ page.title }}</span></p>
         <p>Issued on {{ page.date | date: '%B %d, %Y' }}</p>
+        <p>Author: {{ page.author }}</p>
+        <div
+        class="post-tags text-white">
+        Tags: 
+        {% for tag in tags %}
+          <a href="{{ site.baseurl }}/tags#{{ tag | slugize }}" class="text-white">
+            {{ tag }}
+          </a>
+        {% endfor %}
       </div>
     </div>
   <div class="container-fluid">
