@@ -8,7 +8,7 @@ tag:
 author: natom
 ---
 
-なぜ私は茨城空港を「Tokyo Ibaraki International Airport」都することに賛成なのかまとめました。
+なぜ私は茨城空港を「Tokyo Ibaraki International Airport」とすることに賛成なのかまとめました。
 
 # ニュース「茨城空港→東京茨城国際空港」
 
